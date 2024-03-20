@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "esds",
+  "info": {
+    "singularName": "esd",
+    "pluralName": "esds",
+    "displayName": "ESD",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {}
+    },
+    "title_zh": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "title_en": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "sort": {
+      "pluginOptions": {},
+      "type": "integer"
+    },
+    "job_number": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "truename": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "PASS",
+        "FALL"
+      ],
+      "default": "PASS"
+    }
+  }
+}
